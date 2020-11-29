@@ -704,4 +704,8 @@ export default {
 		right: -30%;
 	}
 }
+
+.el-drawer__body{
+	overflow-y: auto;
+}
 </style>
