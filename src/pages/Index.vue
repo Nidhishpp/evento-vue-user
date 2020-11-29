@@ -147,7 +147,7 @@ export default {
 	methods: {
 		fetchEvents: async function (e) {
 			await axios({
-				url: "http://localhost:8080/api/events",
+				url: "http://localhost:8080/api/events/featured",
 				method: "GET",
 			})
 				.then((resp) => {
