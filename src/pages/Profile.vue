@@ -70,7 +70,7 @@
 									<i class="now-ui-icons objects_umbrella-13"></i>Confirmed
 								</span>
 								<el-table
-									:data="this.filterItemsStatus(bookings, 'confirm')"
+									:data="this.filterItemsStatus(bookings, 'confirmed')"
 									style="width: 100%"
 								>
 									<el-table-column type="expand">
